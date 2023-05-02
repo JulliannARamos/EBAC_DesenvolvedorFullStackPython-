@@ -1,0 +1,71 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body
+{
+    background-color: aliceblue;
+}
+header{
+    background-color: #44B1B8;
+    display: flex;
+    font-size: 24px;
+    color: #fff;
+    height: 87px;
+    padding: 20px 0px 20px 0px;
+}
+
+
+#listaDeTarefas{
+    width: 20%;
+    height: 42px;
+    display: inline;
+    padding: 5px 0px 3px 0px; 
+    margin-top: 20px;  
+    
+}
+
+button{
+    background-color: #44B1B8 ;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+    width: 134px;
+    height: 40px;
+    font-size: 18px;
+}
+
+button:hover{
+    background-color: #218c94;
+}
+
+ul{
+    display: block;
+    flex-wrap: wrap;
+}
+
+ul li{
+    display: block;
+
+}
+.line{
+    text-decoration: line-through;
+    color: #32a7af;
+    
+}
+
+footer {
+    background-color: #44B1B8;
+    border-top: 1px;
+    bottom: 0;
+    left: 0;
+    height: 40px;
+    position: fixed;
+    width: 100%;
+}
+
